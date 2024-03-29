@@ -26,12 +26,12 @@ const handleSubmit = (e)=>{
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor='username'>Username:</label>
-            <input type='text' required id='username' placeholder='username' value={username} onChange={(e)=>{setUsername(e.target.value)}}/>
+            <input type='text'  id='username' placeholder='username' value={username} required onChange={(e)=>{setUsername(e.target.value)}}/>
           </div>
 
           <div>
             <label htmlFor='password'>Password:</label>
-            <input type='password'required id='password' placeholder='password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
+            <input type='password' id='password' placeholder='password' value={password} required onChange={(e)=>{setPassword(e.target.value)}}/>
           </div>
 
           <button type='submit'>Submit</button>
