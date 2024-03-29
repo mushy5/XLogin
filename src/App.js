@@ -30,7 +30,7 @@ const handleSubmit = (e)=>{
           </div>
 
           <div>
-            <label htmlFor='password'>Username:</label>
+            <label htmlFor='password'>Password:</label>
             <input type='password'required id='password' placeholder='password' value={password} onChange={(e)=>{setPassword(e.target.value)}}/>
           </div>
 
